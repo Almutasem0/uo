@@ -1,0 +1,48 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Contact Tesla Team</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="models.html">Models</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <section>
+    <h2>Send Us a Message</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="model">Favorite Model:</label><br>
+      <select id="model" name="model">
+        <option value="Model S">Model S</option>
+        <option value="Model 3">Model 3</option>
+        <option value="Model X">Model X</option>
+        <option value="Model Y">Model Y</option>
+      </select><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" required></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Tesla Project. All rights reserved.</p>
+  </footer>
+</body>
+</html>
